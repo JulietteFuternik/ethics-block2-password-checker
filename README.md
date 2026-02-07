@@ -22,7 +22,7 @@ The program checks a password against five rules. Each rule is worth one point:
 
 ## Run instructions
 From the project folder, run:
-'''bash
+```bash
 python password_checker.py
 
 When prompted, enter a password to see its score and strength rating.
@@ -35,7 +35,7 @@ bad_passwords.txt - a small list of common passwords used for comparison
 # ---- Warnings and limitations ----
 !!!! This tool is for educational use only and should not be used for securing sensitive information. !!!!
 - This tool is for educational purposes only and should not be used to secure real accounts.
-- The list of common passwords is very limited and does not represent real-world breach databas
+- The list of common passwords is very limited and does not represent real-world breach databases.
 - The scoring system is simplistic and does not reflect real-world password security.
 - A password rated as “STRONG” by this tool may still be insecure in practice.
 
