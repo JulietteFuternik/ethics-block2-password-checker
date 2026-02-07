@@ -22,7 +22,6 @@ The program checks a password against five rules. Each rule is worth one point:
 
 ## Run instructions
 From the project folder, run:
-```bash
 python password_checker.py
 
 When prompted, enter a password to see its score and strength rating.
